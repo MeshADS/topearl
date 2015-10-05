@@ -12,8 +12,8 @@
 				<div class="col-md-4 m-v-50 useful-links">
 					<h4 class="uppercase xs-text white-text p-b-10 bold m-v-0">Useful Links</h4>
 					<ul class="m-b-50">
-						@if(isset($sitedata["Footer"]["menu"]))
-							<?php $footer_menu = explode(";", $sitedata["Footer"]["menu"]["body_notags"]);?>
+						@if(isset($sitedata["footer"]["menu"]))
+							<?php $footer_menu = explode(";", $sitedata["footer"]["menu"]["body_notags"]);?>
 							@foreach($footer_menu as $fmn)
 								<?php $fmn_items = explode(',', $fmn) ?>
 								@if(count($fmn_items) == 2)
