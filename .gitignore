@@ -1,0 +1,12 @@
+/bootstrap/compiled.php
+/public/assets/site/node_modules
+/public/assets/site/package.json
+/public/assets/site/gulpfile.js
+/public/assets/site/scss
+/public/assets/site/sass.cache
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db

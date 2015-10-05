@@ -1,0 +1,23 @@
+{
+    "name": "ao/api",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mesh ADS Studios",
+            "email": "meshadsstudio@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Ao\\Api\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

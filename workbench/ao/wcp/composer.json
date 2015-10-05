@@ -1,0 +1,25 @@
+{
+    "name": "ao/wcp",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mesh Ads",
+            "email": "meshadsstudios@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/acme"
+        ],
+        "psr-0": {
+            "Ao\\Wcp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
